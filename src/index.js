@@ -27,7 +27,7 @@ function handler(req, res) {
   }
 
   else {
-    res.end(JSON.stringify({ err: 'not found' }));
+    res.end(JSON.stringify({ err: 'Froggy Database / API / Docs: https://froggy.pro/docs' }));
   }
 }
 process.on('uncaughtException', (e) => {
